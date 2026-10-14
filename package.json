@@ -9,7 +9,8 @@
     "data"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "release:announce": "node scripts/discord-announce.js"
   },
   "keywords": [
     "valorant",
@@ -18,12 +19,20 @@
   ],
   "author": "Aashish Gupta",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4shu-dev/valolib-4shu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/4shu-dev/valolib-4shu/issues"
+  },
+  "homepage": "https://github.com/4shu-dev/valolib-4shu#readme",
   "devDependencies": {
     "@types/node": "^20.0.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "valolib-4shu": "^1.0.0"
+    "dotenv": "^16.4.5"
   }
 }
