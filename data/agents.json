@@ -1,0 +1,75 @@
+[
+  {
+    "id": "gekko",
+    "name": "Gekko",
+    "role": "Initiator",
+    "biography": "Los Angeles native Gekko leads a tight-knit crew of tumultuous critters.",
+    "abilities": [
+      {
+        "slot": "E",
+        "name": "Dizzy",
+        "type": "Signature",
+        "description": "Send Dizzy forward to unleash plasma blasts at enemies in line of sight.",
+        "cooldown": 20,
+        "tacticalNotes": "Flashes enemies; can be picked up after cooldown to reuse."
+      },
+      {
+        "slot": "Q",
+        "name": "Wingman",
+        "type": "Basic",
+        "description": "Send Wingman forward to seek out enemies or plant/defuse the Spike.",
+        "tacticalNotes": "Can interact with the Spike and concusses the first enemy he sees."
+      },
+      {
+        "slot": "C",
+        "name": "Mosh Pit",
+        "type": "Basic",
+        "description": "Throw Mosh like a grenade upon landing he duplicates across a large area.",
+        "tacticalNotes": "Explodes after a short delay, dealing massive damage in an area."
+      },
+      {
+        "slot": "X",
+        "name": "Thrash",
+        "type": "Ultimate",
+        "description": "Link with Thrash's mind to steer her through enemy territory.",
+        "tacticalNotes": "Detonate to detain enemies in a radius; can be picked up and reused once."
+      }
+    ]
+  },
+  {
+    "id": "chamber",
+    "name": "Chamber",
+    "role": "Sentinel",
+    "biography": "Well-dressed and deadly, French weapons designer Chamber keeps lanes locked down with custom firepower.",
+    "abilities": [
+      {
+        "slot": "C",
+        "name": "Trademark",
+        "type": "Basic",
+        "description": "Place a trap that scans for enemies. When a visible enemy comes in range, the trap counts down and destabilizes the terrain.",
+        "tacticalNotes": "Creates a lingering slow field when triggered."
+      },
+      {
+        "slot": "Q",
+        "name": "Headhunter",
+        "type": "Basic",
+        "description": "Activate to equip a heavy pistol. Alt-fire aims down sights.",
+        "tacticalNotes": "High precision, kills in one headshot at any range."
+      },
+      {
+        "slot": "E",
+        "name": "Rendezvous",
+        "type": "Signature",
+        "description": "Place two teleport anchors. While on the ground and in range, reactivate to teleport to the other anchor.",
+        "tacticalNotes": "Anchors can be picked up and redeployed to create aggressive angles."
+      },
+      {
+        "slot": "X",
+        "name": "Tour De Force",
+        "type": "Ultimate",
+        "description": "Summon a custom, incredibly powerful sniper rifle that kills enemies with any direct hit.",
+        "tacticalNotes": "Leaves behind a lingering slow field on kill."
+      }
+    ]
+  }
+]

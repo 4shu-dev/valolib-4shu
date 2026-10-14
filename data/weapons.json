@@ -1,0 +1,36 @@
+[
+  {
+    "id": "vandal",
+    "name": "Vandal",
+    "category": "Rifles",
+    "cost": 2900,
+    "fireRate": 9.75,
+    "magazineSize": 25,
+    "damages": [
+      {
+        "rangeStart": 0,
+        "rangeEnd": 50,
+        "head": 160,
+        "body": 40,
+        "leg": 34
+      }
+    ]
+  },
+  {
+    "id": "classic",
+    "name": "Classic",
+    "category": "Sidearms",
+    "cost": 0,
+    "fireRate": 6.75,
+    "magazineSize": 12,
+    "damages": [
+      {
+        "rangeStart": 0,
+        "rangeEnd": 30,
+        "head": 78,
+        "body": 26,
+        "leg": 22
+      }
+    ]
+  }
+]
